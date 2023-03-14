@@ -30,6 +30,7 @@ const FoodItem({ Key? key, required this.itemTitle, required this.itemPrice, req
               image: AssetImage(imageURI),
               height: 80,
               width: 80,
+              fit: BoxFit.cover,
             ),
           ],
         ),
